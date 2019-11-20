@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">Morning Bucket</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="GOT_IT">Got It</string>
+    <string name="title_no_internet">No Internet</string>
+    <string name="msg_no_internet">Please Check your Internet Connection</string>
+    <string name="TRY_AGAIN">Try Again</string>
+    <string name="CLOSE">Close</string>
+
+
+    <string-array name="about_title_array">
+        <item>Rapid Delivery</item>
+        <item>Easy Payment Options</item>
+        <item>Best Support</item>
+        <item>Fresh Products</item>
+    </string-array>
+
+    <style name="RippleStyleWhite">
+        <item name="mrl_rippleOverlay">true</item>
+        <item name="mrl_rippleColor">#80FFFFFF</item>
+        <item name="mrl_rippleHover">true</item>
+        <item name="mrl_rippleAlpha">0.2</item>
+    </style>
+
+    <string-array name="about_description_array">
+        <item>All daily needs at your door step\n with rapid delivery</item>
+        <item> Hassle free payment\n and cash on delivery</item>
+        <item>Easy communication with us</item>
+        <item>You can get products from village to your door</item>
+    </string-array>
+
+    <integer-array name="about_images_array">
+        <item>@drawable/intro_img_1</item>
+        <item>@drawable/intro_img_2</item>
+        <item>@drawable/intro_img_3</item>
+        <item>@drawable/intro_img_4</item>
+    </integer-array>
+
+
+    <integer-array name="slider_images_array">
+        <item>@drawable/slide1</item>
+        <item>@drawable/slide1</item>
+        <item>@drawable/slide1</item>
+        <item>@drawable/slide1</item>
+    </integer-array>
+
+
+    <string name="title_activity_main">Morning Bucket</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="OK">Ok</string>
+    <string name="title_unable_connect">Unable To Connect</string>
+    <string name="msg_unable_connect">Unable To Connect to Server</string>
+    <string name="message_verification_code_sent_to">OTP sent to your Register Mobile Number</string>
+    <string name="selectcity">Please Select City</string>
+    <string name="message_invalid_verification_code">OTP is Not Valide</string>
+    <string name="btn_dismiss">Dismiss</string>
+    <string name="message_phone_number_is_required">Mobile Number is Required</string>
+    <string name="search_hint">Search Brand or Products</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="store_bnav">Store</string>
+    <string name="delivery_bnav">Delivery</string>
+    <string name="plans_bnav">Plans</string>
+    <string name="me_bnav">Me</string>
+    <string name="drawer_open">1</string>
+    <string name="drawer_close">1</string>
+    <string name="cart">Cart</string>
+    <string name="title_activity_subcat">SubcatActivity</string>
+    <string name="title_activity_productslistactivity">Productslistactivity</string>
+    <string name="title_activity_products_description">ProductsDescriptionActivity</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="add_cart">Item Added in Cart</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="items">item(s)</string>
+    <string name="title_activity_shoping_cart">ShopingCartActivity</string>
+    <string name="title_delete_confirm">Delete Confirmation</string>
+    <string name="content_delete_confirm">Are you sure? You want to remove all!</string>
+    <string name="content_delete_confirm_one">Are you sure? You want to remove this item!</string>
+    <string name="YES">YES</string>
+    <string name="delete_success">Removed Successfully</string>
+    <string name="title_activity_cart">Shoping Cart</string>
+    <string name="DELETE">Empty Cart</string>
+    <string name="msg_cart_empty">Shoping Cart is Empty</string>
+    <string name="err_email">Enter Valid Email id</string>
+    <string name="err_email_not_empty">Email Id is empty</string>
+    <string name="err_fname">Enter Valid Name</string>
+    <string name="err_fname_not_empty">Fist name is empty</string>
+    <string name="err_lname_not_empty">Last Name is empty</string>
+    <string name="err_city_not_empty">City is empty</string>
+    <string name="err_field_not_empty">Field is empty</string>
+    <string name="err_pin_not_valid">Pincode is not valid</string>
+    <string name="title_activity_personaldetail">Personaldetail</string>
+    <string name="title_activity_checkout">Checkout</string>
+
+
+    <!--All Check out Strings-->
+
+    <string name="cost_details">Cost Details</string>
+    <string name="total_order">Total Order :&#160;</string>
+    <string name="tax">Tax&#160;</string>
+    <string name="total_fess">Total Amount :&#160;</string>
+    <string name="buyer_profile">Buyer Profile</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_shipping">Shipping</string>
+    <string name="choose_shipping">Choose shipping</string>
+    <string name="hint_date_ship">Date Shipping</string>
+    <string name="hint_comment">Comment</string>
+
+    <string name="invalid_name">invalid name</string>
+    <string name="invalid_email">invalid email</string>
+    <string name="invalid_phone">invalid phone</string>
+    <string name="invalid_address">invalid address</string>
+    <string name="invalid_shipping">invalid shipping</string>
+    <string name="invalid_date_ship">invalid date shipping</string>
+    <string name="invalid_comment">invalid comment</string>
+
+    <string name="title_please_wait">Please Wait</string>
+    <string name="content_submit_checkout">Submit Checkout&#8230;</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm_checkout">Are you sure want to checkout this order?</string>
+    <string name="failed_checkout">
+        Oops, Failed when checkout order
+        \n\nMake sure you have internet connection, or if you need help please Contact Us from menu Settings
+    </string>
+    <string name="success_checkout">Congratulation</string>
+    <string name="msg_success_checkout">
+        Successfully checkout order.\nYour order code : %1$s\n\nYour order will be review soon. When your order is ready, invoice detail will be sent to your email.
+    </string>
+    <string name="process_checkout">PROCESS CHECKOUT</string>
+    <string name="NO">NO</string>
+    <string name="title_activity_order_list">Orders</string>
+    <string name="title_activity_order_detail">Order Summary</string>
+    <string name="title_activity_plan_detail">Order Details</string>
+    <string name="currency">₹</string>
+    <string name="title_activity_transaction_history">Transaction History</string>
+    <string name="title_activity_cashback_history">Cashback History</string>
+    <string name="enter_your_name_and_email"><![CDATA[Enter Your Name & Email]]></string>
+
+
+
+<!--    KeyAlias : morning_bucket;
+    Password : Synram@125-->
+</resources>

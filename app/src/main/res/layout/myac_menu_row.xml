@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+
+
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_weight="0.20"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/menu_img"
+        android:tint="@color/grey_60"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_man_user"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+android:layout_gravity="center_vertical|start"
+        android:gravity="center_vertical|start"
+        android:layout_weight="0.80"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:textColor="@color/grey_60"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical|start"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

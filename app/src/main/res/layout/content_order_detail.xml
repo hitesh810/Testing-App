@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.OrderDetailActivity"
+    android:orientation="vertical"
+  >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/shpNameInSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="--"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/orderIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ORDER NUMBER"
+            android:textColor="@color/grey_90"
+            android:textSize="10sp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/shpNameInSummary"/>
+
+        <TextView
+            android:id="@+id/idOfOrderInSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/orderIdTextView"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idOfOrderInSummary"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey_90"
+            android:textSize="10sp"
+            android:text="DATE"/>
+
+        <TextView
+            android:id="@+id/dateToSetInOrderSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="--" />
+
+        <TextView
+            android:id="@+id/phoneNumberInSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dateToSetInOrderSummary"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey_90"
+            android:textSize="10sp"
+            android:text="PHONE NUMBER"/>
+
+        <TextView
+            android:id="@+id/phoneInSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phoneNumberInSummary"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14dp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/textAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phoneInSummary"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey_90"
+            android:text="ADDRESS"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/addressInSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textAddress"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="--"/>
+
+        <TextView
+            android:id="@+id/deliveryC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addressInSummary"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey_90"
+            android:text="Delivery Charge"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/deliveryCharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deliveryC"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="--"/>
+
+        <TextView
+
+            android:id="@+id/totalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/discountGet"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey_90"
+            android:text="Total Price"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/totalprice_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalprice"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="--"/>
+
+
+        <TextView
+            android:id="@+id/discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deliveryCharge"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/grey_90"
+            android:text="Discount"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/discountGet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/discount"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:text="--"/>
+
+
+        <TextView
+            android:id="@+id/asdfghjkl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalprice_val"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Your Order"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/order_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/asdfghjkl"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

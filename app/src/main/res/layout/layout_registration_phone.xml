@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context="com.synram.morningbucket.activities.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We have sent you an OTP via SMS to you Number for Verification"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/lato_light"
+                 />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lato"
+                android:padding="20dp"
+                android:text="+91-8130137993"
+                android:textAlignment="center"
+                android:textColor="@color/grey_90"
+                android:textSize="15sp"
+                app:fontFamily="@font/lato_bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India (+91)"
+            android:textSize="20sp"
+            android:layout_marginTop="40dp"
+
+            android:fontFamily="@font/lato"
+            android:textColor="@color/black"
+            android:layout_marginLeft="20dp"
+            />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+
+
+            <EditText
+                android:id="@+id/etxt_registration_phone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edt_bg_selector"
+                android:hint="Enter Phone Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:minHeight="45dp"
+                android:textSize="16sp"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right|end"
+            android:gravity="right|end"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:visibility="gone"
+                android:padding="10dp"
+                android:text="02:30"
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+android:visibility="gone"
+                android:id="@+id/resend_btn"
+                android:text="Resend OTP"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_registration_mobile_otp_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="ONE TIME PASSWORD"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_registration_mobile_otp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <com.synram.morningbucket.Wedgit.OTPEditText
+                android:layout_margin="5dp"
+                android:id="@+id/etxt_registration_mobile_one"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edt_bg_selector"
+                android:gravity="center"
+                android:hint="X"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textColorHint="@color/grey_20"
+                android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+
+            <com.synram.morningbucket.Wedgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_two"
+                android:layout_width="40dp"
+                android:layout_margin="5dp"
+
+                android:layout_height="40dp"
+                android:background="@drawable/edt_bg_selector"
+                android:gravity="center"
+                android:hint="X"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textColorHint="@color/grey_20"
+                android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+            <com.synram.morningbucket.Wedgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_three"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+
+                android:background="@drawable/edt_bg_selector"
+                android:gravity="center"
+                android:hint="X"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textColorHint="@color/grey_20"
+                android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+
+            <com.synram.morningbucket.Wedgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_four"
+                android:layout_width="40dp"
+                android:layout_margin="5dp"
+
+                android:layout_height="40dp"
+                android:background="@drawable/edt_bg_selector"
+                android:gravity="center"
+                android:hint="X"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textColorHint="@color/grey_20"
+                android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+
+
+            <com.synram.morningbucket.Wedgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_five"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edt_bg_selector"
+                android:gravity="center"
+                android:layout_margin="5dp"
+
+                android:hint="X"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textColorHint="@color/grey_20"
+                android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+            <com.synram.morningbucket.Wedgit.OTPEditText
+                android:id="@+id/etxt_registration_mobile_six"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edt_bg_selector"
+                android:gravity="center"
+                android:layout_margin="5dp"
+
+                android:hint="X"
+                android:inputType="number"
+                android:maxLength="1"
+                android:textColor="#000000"
+                android:textColorHint="@color/grey_20"
+                android:textCursorDrawable="@color/colorPrimaryDark"/>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/send_code"
+        style="@style/RegistrationFAB"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+android:id="@+id/register_btn"
+
+        style="@style/RegistrationFAB"
+        android:onClick="onRegistrationMobileNumberSubmitClick"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        android:visibility="gone"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp"/>
+
+</FrameLayout>

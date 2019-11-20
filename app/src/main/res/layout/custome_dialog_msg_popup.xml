@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/title"
+        android:textSize="15sp"
+        android:textColor="@color/colorPrimary"
+        android:textAlignment="textStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How do you want your subscription plan to be?"
+        android:gravity="start" />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/monthly_subscription"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|start"
+            android:gravity="start|center_vertical"
+            android:layout_weight="0.50"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAlignment="textStart"
+                android:text="Daily"
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:drawableTint="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+
+            android:background="@color/grey_20"/>
+
+        <LinearLayout
+
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/alternative_subscription"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical|start"
+            android:gravity="start|center_vertical"
+            android:layout_weight="0.50"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+
+                android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+                android:drawableTint="@color/colorPrimary"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:text="Alternative Days"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>

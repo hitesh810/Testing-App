@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_cart"
+        android:icon="@drawable/actionbar_group_icon"        android:orderInCategory="100"
+        android:title="Cart"
+
+        app:showAsAction="always" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_wish"-->
+        <!--android:visible="false"-->
+        <!--android:icon="@drawable/heart_black_shape"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="wishlist"-->
+        <!--app:showAsAction="always" />-->
+
+</menu>

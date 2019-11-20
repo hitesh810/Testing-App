@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+
+
+        <ViewFlipper
+            android:id="@+id/viewflipper_registration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <include layout="@layout/layout_registration_phone"/>
+            <include layout="@layout/layout_select_city_locality"/>
+            <include layout="@layout/layout_personal_detail"/>
+            <!--<include layout="@layout/layout_registration_password"/>-->
+
+        </ViewFlipper>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:windowContentTransitions">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RegistrationFAB">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="DrawerStyle" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">#00000000</item> "
+    </style>
+
+    <style name="ToolbarHomeStyle" parent="@style/AppTheme">
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/grey_60</item>
+    </style>
+
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="color">@color/grey_40</item>
+
+    </style>
+
+    <style name="RippleStyleBlack" parent="RippleStyleWhite">
+        <item name="mrl_rippleColor">#8096989A</item>
+    </style>
+
+    <style name="ThemeDialogCustom" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/lato</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+
+    <!--<style name="switchStyle" parent="ThemeOverlay.AppCompat.Dark">-->
+        <!--<item name="colorPrimary">@color/redcolor</item>-->
+        <!--<item name="colorPrimaryDark">@color/redcolor</item>-->
+        <!--<item name="colorAccent">@color/greencolor</item>    &lt;!&ndash; set your color &ndash;&gt;-->
+    <!--</style>-->
+
+
+    <style name="switchStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#28a745</item>
+        <item name="colorSwitchThumbNormal">@color/grey_90</item>
+        <item name="android:colorForeground">@color/grey_40</item>
+    </style>
+</resources>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:padding="10dp"
+            android:textSize="20sp"
+
+            android:text="@string/enter_your_name_and_email"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent">
+
+               <EditText
+                   android:background="@drawable/edittext_design"
+                   android:id="@+id/fname"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:hint="First Name"
+                   android:paddingTop="10dp"
+                   android:paddingLeft="5dp"
+                   android:paddingBottom="10dp"
+                   />
+
+           </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@drawable/edittext_design"
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Id"
+                android:paddingTop="10dp"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@drawable/edittext_design"
+                android:id="@+id/city"
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City"
+                android:singleLine="true"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+
+                android:background="@drawable/edittext_design"
+                android:id="@+id/locality"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Locality/Address"
+                android:singleLine="true"
+
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="0.50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:background="@drawable/edittext_design"
+                    android:id="@+id/bno"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Block No"
+                    android:singleLine="true"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="10dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.50"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <EditText
+                    android:background="@drawable/edittext_design"
+
+                    android:id="@+id/pin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Pin Code"
+                    android:singleLine="true"
+                    android:maxLength="6"
+                    android:inputType="number"
+                    android:paddingTop="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="10dp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="@drawable/edittext_design"
+                android:id="@+id/landmark"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Landmark(Optional)"
+                android:singleLine="true"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="10dp"                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/finish_btn"
+
+        style="@style/RegistrationFAB"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_chevron_right_black_24dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        android:onClick="gotoMain"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_chevron_right_black_24dp" />
+
+
+</android.support.constraint.ConstraintLayout>

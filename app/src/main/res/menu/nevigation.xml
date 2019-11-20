@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/store"
+        android:icon="@drawable/ic_store"
+        android:title="@string/store_bnav" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/delivery"
+        android:icon="@drawable/ic_delivery_motorbike"
+        android:title="@string/delivery_bnav" />
+
+    <item
+        android:id="@+id/plans"
+        android:icon="@drawable/ic_shopping_list"
+        android:title="@string/plans_bnav" />
+
+    <item
+        android:id="@+id/me"
+        android:icon="@drawable/ic_man_user"
+        android:title="@string/me_bnav" />
+
+</menu>

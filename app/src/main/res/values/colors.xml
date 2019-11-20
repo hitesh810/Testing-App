@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#253240</color>
+    <color name="colorPrimaryDark">#253240</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="grey_3">#f7f7f7</color>
+    <color name="grey_5">#f2f2f2</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+    <color name="grey_40">#999999</color>
+    <color name="grey_60">#666666</color>
+    <color name="grey_80">#37474F</color>
+    <color name="grey_90">#263238</color>
+
+
+    <color name="colorPrice">#429E45</color>
+    <color name="colorAddCart">#FFB300</color>
+    <color name="colorRemoveCart">#666666</color>
+
+    <color name="colorWarning">#FF7043</color>
+    <color name="colorInfo">#5DBA60</color>
+
+    <color name="darkOverlay">#80000000</color>
+    <color name="darkOverlaySoft">#40000000</color>
+    <color name="whiteOverlay">#40FFFFFF</color>
+
+    <color name="drawerHeaderColor">#FFED87</color>
+    <color name="drawerHeaderIcon">#666666</color>
+
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="products_background">#F6F6F6</color>
+    <color name="summ_sky">#2592D9</color>
+
+    <color name="whisper">#EDEDED</color>
+    <color name="black">#000000</color>
+    <color name="btn_color">#7d7513</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkOrange">#d79810</color>
+    <color name="redcolor">#FF0000</color>
+    <color name="greencolor">#00FF00</color>
+
+
+
+</resources>
